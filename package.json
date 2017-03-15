@@ -1,0 +1,19 @@
+{
+  "name": "sadia-portfolio",
+  "version": "1.0.0",
+  "description": "Preview: http://leemunroe.github.io/motherplate/example.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "dependencies": {
+    "lightbox2": "^2.9.0"
+  }
+}

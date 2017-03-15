@@ -1,0 +1,280 @@
+body{
+     font-family:  "Open Sans",arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+body a{
+    transition: all 0.3s ease-in-out 0.1s;
+}
+body a:visited, a:focus, a:active{
+    border: none;
+    text-decoration: none;
+}
+button:focus {outline:0;}
+h1,h2,h3,h4,h5,h6{
+    font-family:  "Open Sans",arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.20em;
+    color: #060606;
+}
+
+#about{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+   
+}
+#expertise .card{
+   /* text-align: center; */
+    border: none;  
+}
+
+#expertise{
+    text-align: center;
+}
+#expertise h1{
+    margin-bottom: 40px;
+}
+
+hr.style11 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+#work{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#work .card-img-top {
+  padding: 15px;
+  max-height: 111px;    
+}
+
+#work .card{
+/*-webkit-box-shadow: inset 24px 1px 27px -31px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 24px 1px 27px -31px rgba(0,0,0,0.75);
+box-shadow: inset 24px 1px 27px -31px rgba(0,0,0,0.75);*/
+    background-color: #f6f6f6;
+    color: #000;
+    text-shadow: none;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;   
+    border-radius: 0px;
+    border: none;
+    margin-right:1px; 
+ /*background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");*/
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#work .card:last-child{
+    margin-right: none;
+}
+
+.e {
+  width:100%;
+  height:30px;
+   -webkit-animation: load 3s infinite;
+   animation: load 3s infinite;
+    display:none;
+}
+.jumbotron h1{
+    color: #fff;
+    
+}
+.jumbotron{
+    box-shadow: 10px 5px 5px #888888;
+    font-family: Poppins,sans-serif;
+    color: #fff;
+    
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.big-banner{
+    padding: 10% 0;
+    min-height: 500px;
+    color: #fff;
+}
+.big-banner h1{
+    color: #f6f6f6;
+    font-size: 52px;
+}
+.btn.sharp {
+  border-radius:0;
+  background-color: #ee3b16;
+  text-transform: uppercase;
+  border: 1px solid #ee3b16;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+.btn.sharp:hover{
+    background-color: #EE9016;
+    border: 1px solid #EE9016; 
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.big-banner2{
+    padding: 10% 0;
+    min-height: 400px;
+    color: #fff;
+}
+.orange{
+        background: rgba(238, 59, 22, 0.7);
+}
+.green-bg{
+     background: #DFEEEB;
+    border: none;
+}
+.purple-bg{
+     background: #6B74E6;
+}
+.purple-btn{
+   /* background: #6B74E6;
+    background: #233A77;*/
+    background-color: #ee3b16;
+    border-radius: 0px; 
+    font-size: 14px;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+.purple-btn:hover{    
+    background-color: #EE9016;
+    transition: all 0.3s ease 0s;
+}
+
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top-color: #fff;
+  background: #4b4b4b;  
+  border: #4b4b4b;    
+  border-width: 5px 5px 0;
+}
+.tooltip-inner {
+  color: #fff;
+  background: #2b2b2b;
+  padding: 15px;    
+
+}
+
+.responsive-circle {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    width: 80%;
+}
+.responsive-circle::after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 0;
+    margin-bottom: 20px;
+    padding-bottom: 100%;
+    width: 100%;
+}
+.responsive-circle div {
+    color: white;
+    float: left;
+    line-height: 1em;
+    margin-top: -0.5em;
+    padding-top: 50%;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px #000;
+}
+.nyc-circle::after {
+    background-color: #2b2b2b;
+    background: url(/img/dark_geometric.png);
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+.footer{
+    color: #5b5b5b;
+    font-size: 12px;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.social-network a {
+ background-color: #D3D3D3;   
+}
